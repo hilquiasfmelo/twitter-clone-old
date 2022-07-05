@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
     <title>Twitter</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -26,15 +27,20 @@
         <img src="./assets/twitter.svg" alt="Twitter" />
         <div class="side">
           <input type="text" placeholder="Search on Twitter" />
-          <img src="http://github.com/hilquiasfmelo.png" alt="Hilquias">
+          <img src="http://github.com/hilquiasfmelo.png" alt="Hilquias" />
           <button>Tweet</button>
         </div>
       </div>
     </header>
 
     <div class="banner">
-      <span>Created by <strong>@hilquiasfmelo</strong> & updated by <strong>@Turilândia-MA</strong></span>
-      <span class="title">Feel free to share, use and spread the world with it!</span>
+      <span
+        >Created by <strong>@hilquiasfmelo</strong> & updated by
+        <strong>@Turilândia-MA</strong></span
+      >
+      <span class="title"
+        >Feel free to share, use and spread the world with it!</span
+      >
     </div>
 
     <div class="bar">
@@ -53,7 +59,7 @@
             <strong>387</strong>
           </li>
           <li>
-            <span>Favorites</span>  
+            <span>Favorites</span>
             <strong>265</strong>
           </li>
           <li>
@@ -65,7 +71,7 @@
             <strong>0</strong>
           </li>
         </ul>
-  
+
         <div class="action">
           <button>Follow</button>
           <img src="./assets/more.svg" />
@@ -75,22 +81,252 @@
 
     <div class="wrapper-content content">
       <aside class="profile">
-        <img class="avatar" src="https://github.com/hilquiasfmelo.png" alt="Hilquias" />
+        <img
+          class="avatar"
+          src="https://github.com/hilquiasfmelo.png"
+          alt="Hilquias"
+        />
         <h1>Hilquias Ferreira Melo</h1>
-        <span>@hilquiasfmelo</span> 
-        <p>Developer FullStack of the @Turilândia-MA</p>
+        <span>@hilquiasfmelo</span>
+        <p>Developer of the @Turilândia-MA</p>
 
-        <ul>
-          <li><img src="./assets/mapa.png" alt="Mapa"> Turilândia-MA, Brazil</li>
-          <li><img src="./assets/link.png" alt="Link"> @hilquiasfmelo</li>
-          <li><img src="./assets/clock.png" alt="Clock"> Joined June 2018</li>
-          <li><img src="./assets/clock.png" alt="Nascimento"> Born the 10th of March 1993</li>
+        <ul class="list">
+          <li>
+            <img src="./assets/mapa.png" alt="Mapa" /> Turilândia-MA, Brazil
+          </li>
+          <li><img src="./assets/link.png" alt="Link" /> @hilquiasfmelo</li>
+          <li><img src="./assets/clock.png" alt="Clock" /> Joined June 2018</li>
+          <li>
+            <img src="./assets/bebe.png" alt="Nascimento" /> Born the 10th of
+            March 1993
+          </li>
         </ul>
+
+        <div class="widget followers">
+          <strong>
+            <img src="./assets/followers.svg" alt="Followers" />
+            73 followers that you know
+          </strong>
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="widget images">
+          <strong>
+            <img src="./assets/images.svg" alt="images" />
+            206 Photos and videos
+          </strong>
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </aside>
 
+      <section class="timeline">
+        <nav>
+          <a href="" class="active">Tweets</a>
+          <a href="">Tweets and replies</a>
+          <a href="">Medias</a>
+        </nav>
 
-      <!-- <section class="timeline">Timeline</section>
-      <aside class="widgets">Widgets</aside> -->
+        <ul class="tweets">
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+          <li>
+            <img src="https://github.com/maykbrito.png" alt="Avatar">
+              <div class="info">
+                <strong>Mayk Brito <span>@maykbrito</span></strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo alias accusamus! A accusamus nihil voluptatem laborum placeat reprehenderit fuga perferendis quo id possimus, ut fugit. Ipsum nostrum nobis necessitatibus.</p>
+                
+                <div class="actions">
+                  <a href=""><img src="./assets/comments.svg" alt="Comments"> 4</a>
+                  <a href=""><img src="./assets/retweet.svg" alt="Retweet"> 10</a>
+                  <a href=""><img src="./assets/like.svg" alt="Like"> 59</a>
+                  <a href=""><img src="./assets/message.svg" alt="Message">0</a>
+                </div>
+              </div>
+            </img>
+          </li>
+        </ul>
+      </section>
+
+      <aside class="widgets">
+        <div class="widget follow">
+          <div class="title">
+            <strong>Who to follow</strong>
+            <a href="">Refresh</a>
+            <a href="">View All</a>
+          </div>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="https://github.com/diego3g.png" alt="Avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade_be</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="https://github.com/diego3g.png" alt="Avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade_be</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="https://github.com/diego3g.png" alt="Avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade_be</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="">x</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
     </div>
   </body>
 </html>
